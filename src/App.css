@@ -69,6 +69,7 @@ h2 {
   position: sticky;
   background-color: #fff;
   top: calc(50% - 205px);
+  height: 450px;
 }
 
 .clickable {
@@ -119,6 +120,7 @@ h2 {
   }
   .avatar-wrapper {
     padding: 0px;
+    position: unset;
   }
 }
 
