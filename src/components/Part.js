@@ -6,6 +6,7 @@ function Part({ path, index, zIndex }) {
       src={`./character/${path}/${index + 1}.png`}
       width={260}
       style={{ zIndex, position: "absolute", left: 0, top: 0 }}
+      alt=""
     />
   );
 }

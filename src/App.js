@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "./App.css";
 import Avatar from "./components/Avatar";
 import PartList from "./components/PartList";
@@ -33,7 +33,7 @@ function App() {
   const [hats, setHats] = useState(0);
   const [neckwear, setNeckwear] = useState(0);
   const [facialHair, setFacialHair] = useState(0);
-  const [noses, setNoses] = useState(0);
+  const [noses] = useState(0);
 
   const randomize = () => {
     setBody(Math.floor(Math.random() * total.body));
