@@ -2,7 +2,7 @@ import React from "react";
 
 function PartList({ total, path, zoom = 1, top = "50%", selected, set }) {
   let parts = [];
-  for (let i = 0; i <= total; i++) {
+  for (let i = 1; i <= total; i++) {
     parts.push(
       <div
         key={i}
@@ -11,7 +11,7 @@ function PartList({ total, path, zoom = 1, top = "50%", selected, set }) {
         }
       >
         <img
-          src={`./character/${path}/${i + 1}.png`}
+          src={`./character/${path}/${i}.png`}
           alt=""
           height={60 * zoom}
           style={{ top }}
